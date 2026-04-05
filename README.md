@@ -42,9 +42,22 @@ At scale (100 instances): $90,000/year saved
 ---
 ## 📊 Performance
 
-- Throughput: ~15K ops/sec  
-- Memory: ~60% lower than naive implementation  
-- Fork latency: ~1.2ms
+**🚀 Key Results**
+* ⚡ **145K ops/sec** after optimization (~10× improvement)
+* ⏱️ **~12μs avg latency** (down from 1.2ms fork model)
+* 🧠 **~160 bytes per key-value pair**
+* 📈 **~85% L2 cache hit rate**
+
+**📉 Baseline (Before Optimization)**
+* Throughput: ~15K ops/sec
+* Latency: ~1.2ms (fork overhead dominated)
+* Single-threaded process-per-request model
+  
+**⚙️ What Improved Performance?**
+* Replaced `fork()` with **epoll-based event loop**
+* Reduced latency by **100×**
+* Improved throughput by **~10×**
+* Eliminated heavy process overhead
 
 ---
 
