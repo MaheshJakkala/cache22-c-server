@@ -4,7 +4,7 @@
 [![Language: C](https://img.shields.io/badge/Language-C-blue.svg)](https://en.wikipedia.org/wiki/C_(programming_language))
 [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-orange.svg)](https://www.linux.org/)
 
-> **A zero-dependency, memory-efficient key-value database server written in pure C with 60% less memory**  
+> **A zero-dependency, memory-efficient key-value database server with 60% less memory written in pure C**  
 > Optimized for CPU-first deployments, demonstrating production-grade memory management and low-latency network I/O
 
 ## 🎯 Business Value & Problem Statement
