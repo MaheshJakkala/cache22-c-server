@@ -5,7 +5,7 @@
 [![Platform: Linux](https://img.shields.io/badge/Platform-Linux-orange.svg)](https://www.linux.org/)
 
 > **A zero-dependency, memory-efficient key-value database server with 60% less memory written in pure C**  
-> Optimized for CPU-first deployments, demonstrating production-grade memory management and low-latency network I/O
+> Optimized for CPU-first deployments, demonstrating production-grade memory management and low-latency network I/O 
   
 ## 🎯 Business Value & Problem Statement  
 
