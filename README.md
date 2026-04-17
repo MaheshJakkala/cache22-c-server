@@ -8,7 +8,7 @@
 > Optimized for CPU-first deployments, demonstrating production-grade memory management and low-latency network I/O
   
 ## 🎯 Business Value & Problem Statement  
-  
+
 ### The Problem
 Modern applications face a critical trade-off:
 - **GPU-based solutions**: High throughput but expensive ($10K-$50K per GPU), scarce, and overkill for many workloads
