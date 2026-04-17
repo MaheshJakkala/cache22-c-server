@@ -6,7 +6,7 @@
 
 > **A zero-dependency, memory-efficient key-value database server with 60% less memory written in pure C**  
 > Optimized for CPU-first deployments, demonstrating production-grade memory management and low-latency network I/O
-
+ 
 ## 🎯 Business Value & Problem Statement 
  
 ### The Problem
